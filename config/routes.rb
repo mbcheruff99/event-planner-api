@@ -14,5 +14,7 @@ Rails.application.routes.draw do
   get "/attendees" => "attendees#index"
   get "/attendees/:id" => "attendees#show"
   
+  get "/events" => "events#index"
+  get "/events/:id" => "events#show"
 
 end
